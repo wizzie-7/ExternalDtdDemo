@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	
+<!ELEMENT student (SID,name,Rollno,Standard)>
+<!ELEMENT SID (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Rollno (#PCDATA)>
+<!ELEMENT Standard (#PCDATA)>
+<!ATTLIST SID id CDATA #REQUIRED>
